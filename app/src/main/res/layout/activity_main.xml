@@ -9,60 +9,64 @@
 
     <TextView
         android:id="@+id/txtTextoContador"
-        android:layout_width="219dp"
-        android:layout_height="50dp"
-        android:text="Contador en: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Contador_Text"
         android:textSize="36sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.224"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <TextView
         android:id="@+id/txtNum"
-        android:layout_width="110dp"
-        android:layout_height="50dp"
+        android:layout_width="107dp"
+        android:layout_height="51dp"
         android:layout_marginStart="9dp"
-        android:text="0"
+        android:layout_marginTop="40dp"
+        android:text="@string/Contador_Num"
         android:textAlignment="gravity"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toEndOf="@+id/txtTextoContador"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.283" />
 
     <Button
         android:id="@+id/btnRestar"
-        android:layout_width="125dp"
-        android:layout_height="86dp"
+        android:layout_width="160dp"
+        android:layout_height="68dp"
         android:layout_marginBottom="280dp"
         android:backgroundTint="#E62719"
-        android:text="Restar"
+        android:text="@string/Btn_Decrementar"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSumar"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTextoContador"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnSumar"
-        android:layout_width="116dp"
-        android:layout_height="84dp"
-        android:layout_marginEnd="56dp"
+        android:layout_width="170dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="44dp"
         android:layout_marginBottom="280dp"
         android:backgroundTint="#216EF3"
-        android:text="Sumar"
+        android:text="@string/Btn_Incrementar"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

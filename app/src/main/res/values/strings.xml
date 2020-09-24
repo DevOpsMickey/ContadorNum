@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ContadorNum</string>
+    <string name="app_name">Contador :)</string>
+    <string name="Contador_Num">0</string>
+    <string name="Contador_Text">Contador en:</string>
+    <string name="Btn_Incrementar">INCREMENTAR</string>
+    <string name="Btn_Decrementar">DECREMENTAR</string>
 </resources>
