@@ -4,4 +4,6 @@
     <string name="Contador_Text">Contador en:</string>
     <string name="Btn_Incrementar">INCREMENTAR</string>
     <string name="Btn_Decrementar">DECREMENTAR</string>
+    <string name="Btn_Abrir">ABRIR NUEVA VISTA</string>
+    <string name="Btn_Regresar">Regresar</string>
 </resources>

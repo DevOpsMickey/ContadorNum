@@ -43,6 +43,7 @@
         android:id="@+id/btnRestar"
         android:layout_width="160dp"
         android:layout_height="68dp"
+        android:layout_marginStart="24dp"
         android:layout_marginBottom="280dp"
         android:backgroundTint="#E62719"
         android:text="@string/Btn_Decrementar"
@@ -51,17 +52,32 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSumar"
-        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintHorizontal_bias="0.696"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTextoContador"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.929" />
+
+    <Button
+        android:id="@+id/btnAbrirVentana"
+        android:layout_width="283dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#CDDC39"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Btn_Abrir"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/Btn_Abrir" />
 
     <Button
         android:id="@+id/btnSumar"
         android:layout_width="170dp"
         android:layout_height="68dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="288dp"
         android:backgroundTint="#216EF3"
         android:text="@string/Btn_Incrementar"
         android:textAlignment="center"
