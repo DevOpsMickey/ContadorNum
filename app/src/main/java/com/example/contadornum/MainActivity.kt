@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnAbrirVentana.setOnClickListener{
-            val abrirVentana = Intent(this, Ventana_Descripcion::class.java);
+            val abrirVentana = Intent(this, Ventana_Descripcion::class.java)
             startActivity(abrirVentana)
         }
 

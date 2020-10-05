@@ -11,7 +11,7 @@ class Ventana_Descripcion : AppCompatActivity() {
         setContentView(R.layout.activity_ventana__descripcion)
 
         btnRegresar.setOnClickListener{
-            val atras = Intent(this, MainActivity::class.java);
+            val atras = Intent(this, MainActivity::class.java)
             startActivity(atras)
         }
     }
